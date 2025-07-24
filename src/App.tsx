@@ -1,22 +1,22 @@
 import { useState } from 'react'
-import './App.css'
+import Cars from './components/page/cars'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from './Layout';
+import Home from './components/page/home';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://panel.managemate.pl" target="_blank">
-          <img src={"https://panel.managemate.pl/img/Managemate_logo_v3.png"} className="logo" alt="Vite logo" />
-        </a>
-      </div>
-      <h1>First React Page</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Layout></Layout>}>
+            <Route index element={<Home></Home>}></Route>
+            <Route path='cars' element={<Cars></Cars>}></Route>
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
