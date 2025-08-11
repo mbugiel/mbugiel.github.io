@@ -4,7 +4,7 @@ const Projects = ()=>{
             <main>
                 <section className="info-box gradient-1">
                     <div className="info-image">
-                        <img src="portfolio/managemate.png" alt="img1" />
+                        <img src="managemate.png" alt="img1" />
                     </div>
                     <div className="info-text">
                         <h3>Managemate <a className="app-link" target="_blank" href="https://panel.managemate.pl">Go  <span className="material-symbols-outlined">arrow_right_alt</span></a></h3>
@@ -48,7 +48,7 @@ const Projects = ()=>{
                         </p>
                     </div>
                     <div className="info-image">
-                        <img src="portfolio/kebabook.png" alt="img1" />
+                        <img src="kebabook.png" alt="img1" />
                     </div>
                 </section>
                 
@@ -69,7 +69,7 @@ const Projects = ()=>{
                 
                 <section className="info-box gradient-1">
                     <div className="info-image">
-                        <img src="portfolio/trainaton.png" alt="img1" />
+                        <img src="trainaton.png" alt="img1" />
                     </div>
                     <div className="info-text">
                         <h3>Trainaton</h3>
@@ -115,7 +115,7 @@ const Projects = ()=>{
                         </p>
                     </div>
                     <div className="info-image">
-                        <img src="portfolio/pong.png" alt="img1" />
+                        <img src="pong.png" alt="img1" />
                     </div>
                 </section>
 
@@ -130,7 +130,7 @@ const Projects = ()=>{
 
                 <section className="info-box gradient-1">
                     <div className="info-image">
-                        <img src="portfolio/unity.png" alt="img1" />
+                        <img src="unity.png" alt="img1" />
                     </div>
                     <div className="info-text">
                         <h3>Unity platform game</h3>
